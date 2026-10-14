@@ -1,4 +1,4 @@
-# android-16kb-check
+# android-imaji-16kb-alignment — Google Play 16 KB page-size check for APK/AAB
 
 Your Play Console upload was rejected for 16 KB page alignment, or you want to
 find out before you upload. This is a shell script that answers that question
@@ -99,7 +99,7 @@ It is one file with no dependencies beyond the Android toolchain it calls.
 
 ```bash
 sudo curl -fsSLo /usr/local/bin/android-16kb-check \
-  https://raw.githubusercontent.com/saimskywalker/android-16kb-check/main/android-16kb-check
+  https://raw.githubusercontent.com/saimskywalker/android-imaji-16kb-alignment/main/android-16kb-check
 sudo chmod +x /usr/local/bin/android-16kb-check
 ```
 
@@ -110,11 +110,14 @@ somewhere you own and make sure that directory is on `PATH`:
 ```bash
 mkdir -p ~/.local/bin
 curl -fsSLo ~/.local/bin/android-16kb-check \
-  https://raw.githubusercontent.com/saimskywalker/android-16kb-check/main/android-16kb-check
+  https://raw.githubusercontent.com/saimskywalker/android-imaji-16kb-alignment/main/android-16kb-check
 chmod +x ~/.local/bin/android-16kb-check
 ```
 
 Or clone the repository and run `./android-16kb-check` in place.
+
+The repository was called `android-16kb-check` until October 2026; the script
+keeps that name, so installed copies and CI steps that call it are unaffected.
 
 ## Usage
 
