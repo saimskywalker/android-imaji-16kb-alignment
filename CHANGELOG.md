@@ -10,6 +10,12 @@ looks barely different.
 
 ## [Unreleased]
 
+### Changed
+
+- The repository is now `saimskywalker/android-imaji-16kb-alignment`, and the
+  install URLs in the README point there. The script keeps its name,
+  `android-16kb-check`, and its interface is unchanged.
+
 ### Fixed
 
 - An artifact whose 64-bit ABI directory contains no `.so` no longer reports
@@ -71,5 +77,5 @@ First release.
   be mistaken for one that passed.
 - `--help` and `--version`.
 
-[Unreleased]: https://github.com/saimskywalker/android-16kb-check/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/saimskywalker/android-16kb-check/releases/tag/v1.0.0
+[Unreleased]: https://github.com/saimskywalker/android-imaji-16kb-alignment/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/saimskywalker/android-imaji-16kb-alignment/releases/tag/v1.0.0
