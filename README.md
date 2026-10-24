@@ -212,6 +212,11 @@ stubs in `test/stubs`, and the artifacts by small archives in `test/fixtures`
 that have the right internal layout and nothing else. `shellcheck` runs over
 the script, the harness and the stubs in CI.
 
+## Trademarks
+
+Google Play and Android are trademarks of Google LLC. This project is
+independent and is not affiliated with, sponsored by or endorsed by Google.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
