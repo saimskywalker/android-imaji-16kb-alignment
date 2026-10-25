@@ -1,0 +1,56 @@
+name: Feature request
+description: Suggest a change to what the check finds or reports
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Requests that fit: more places to find the toolchain, clearer failure messages,
+        artifact shapes that exist and are not handled. Requests that do not: fixing
+        alignment, wrapping Gradle, or guessing. Nothing may reach exit `0` without
+        having read the artifact.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you were trying to check, and where the tool fell short.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would like it to do
+      description: Include the exit code you would expect for each case.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Where you run it
+      description: Laptop with Android Studio, command-line tools only, a CI image (which one), other.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+  - type: dropdown
+    id: ai-use
+    attributes:
+      label: Did you use an AI tool to write this issue?
+      options:
+        - "No"
+        - "Yes, for parts"
+        - "Yes, mostly"
+    validations:
+      required: true
+  - type: input
+    id: ai-tool
+    attributes:
+      label: If yes, which tool and model?
+      description: Required if you answered yes above, for example "Claude Code, Opus 5.5" or "Copilot, GPT-5".
+  - type: checkboxes
+    id: own-words
+    attributes:
+      label: Your own words
+      options:
+        - label: I wrote this issue in my own words.
+          required: true

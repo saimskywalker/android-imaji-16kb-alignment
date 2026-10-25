@@ -55,6 +55,15 @@ The same reasoning is why a 32-bit-only artifact and an artifact with no `.so`
 at all both exit `2` rather than `0`. Neither is evidence about the 64-bit
 build users install.
 
+## AI-assisted contributions
+
+Using AI tools is fine; please just be open about it.
+
+- Say in the PR description which AI tools you used, if any: none, some or most, plus the tool or agent and the model (for example "Claude Code, Opus 5.5" or "Copilot, GPT-5").
+- Write the PR description and any issues yourself, in your own words. Short, plain descriptions are welcome; please don't paste generated text.
+- Read, run and test every line you submit, and be ready to explain it in review.
+- PRs without the disclosure may be closed.
+
 ## What a good bug fix looks like
 
 A test that fails without the fix. `test/run.sh` is a plain bash harness — add
