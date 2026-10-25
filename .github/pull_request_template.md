@@ -14,6 +14,15 @@
 - [ ] If this changes what an exit code means: `CHANGELOG.md` says so, and the
       README table matches
 
+### AI use
+
+<!-- Required for outside contributors; a check fails without it. See CONTRIBUTING.md. -->
+
+- [ ] None
+- [ ] Some (tool or agent, and model: ...)
+- [ ] Most (tool or agent, and model: ...)
+- [ ] I wrote this description myself and I have read and tested every line.
+
 ## If this touches the exit codes
 
 The three-way exit code is the interface, so please say explicitly which of
